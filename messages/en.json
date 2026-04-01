@@ -10,7 +10,9 @@
     "info": "Info",
     "map": "Map",
     "explore": "Explore",
-    "tips": "Tips"
+    "tips": "Tips",
+    "stories": "Stories",
+    "faq": "Topics"
   },
   "hero": {
     "title": "საქართველოს მატიანე",
@@ -54,7 +56,7 @@
   },
   "reviews": {
     "title": "Real Visitor Reviews",
-    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only show a selection of verified high-rated reviews. To see all complete and latest reviews, please click the link below.",
+    "declaration": "Ratings and reviews are from Google Maps (last updated: 2026). We only show a selection of verified high-score reviews. To view all complete and latest reviews, please click the link below.",
     "moreReviews": "See all reviews on Google Maps",
     "items": [
       {
@@ -97,7 +99,8 @@
         "date": "August 2025",
         "text": "Wonderful spot for photography. Soviet-era monumental art at its finest."
       }
-    ]
+    ],
+    "viewAll": "View all reviews on Google Maps"
   },
   "info": {
     "title": "Practical Information",
@@ -149,72 +152,46 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
-    "backHome": "Back to Home"
+    "backHome": "Back to Home",
+    "back": "Back to Home",
+    "lastUpdated": "Last Updated: April 2026"
   },
   "privacyPolicy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 2026",
-    "intro": "This privacy policy describes how we collect, use and protect your information when visiting chroniclesofgeorgia.com.",
-    "sections": [
-      {
-        "title": "Information Collection",
-        "content": "We collect anonymous usage data through analytics. We do not collect personal information unless you provide it directly (e.g., via email contact)."
-      },
-      {
-        "title": "Use of Cookies",
-        "content": "Our site uses cookies to improve experience, store theme preferences and language selection."
-      },
-      {
-        "title": "Third-Party Services",
-        "content": "We use Google Maps for map embedding and Google Analytics for traffic analysis. These services may collect data according to their own policies."
-      },
-      {
-        "title": "Contact",
-        "content": "For privacy-related questions, please write to: N20186005@gmail.com"
-      }
+    "content": [
+      "1. Introduction\nWelcome to the Chronicles of Georgia guide. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website.",
+      "2. The data we collect about you\nWe may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows: Technical Data (IP address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform), Usage Data (information about how you use our website).",
+      "3. How we use your personal data\nWe will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances: Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.",
+      "4. Data security\nWe have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed.",
+      "5. Third-party links\nThis website may include links to third-party websites (like Google Maps), plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements."
     ]
   },
   "termsOfService": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: March 2026",
-    "intro": "By accessing chroniclesofgeorgia.com, you agree to the following terms.",
-    "sections": [
-      {
-        "title": "Use of Site",
-        "content": "This site provides informational content about the Chronicles of Georgia. Information is provided 'as is' and may contain inaccuracies."
-      },
-      {
-        "title": "Intellectual Property",
-        "content": "Site content, text and design are our property. Photos are under Unsplash license. Google Maps data belongs to Google."
-      },
-      {
-        "title": "Limitation of Liability",
-        "content": "We assume no responsibility for reliance on information provided on this site. Please always verify tourist information with official sources."
-      },
-      {
-        "title": "Contact",
-        "content": "For questions related to these terms, please write to: N20186005@gmail.com"
-      }
+    "content": [
+      "1. Acceptance of Terms\nBy accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.",
+      "2. Description of Service\nThis website provides an independent informational guide about The Chronicles of Georgia monument. The information is provided 'as is' without warranties of any kind.",
+      "3. Intellectual Property\nAll content included on this site, such as text, graphics, logos, images, is the property of the website owner or its content suppliers and protected by international copyright laws.",
+      "4. User Conduct\nYou agree not to use the website for any unlawful purpose or any purpose prohibited under this clause. You agree not to use the website in any way that could damage the website or general business.",
+      "5. Limitation of Liability\nIn no event shall the website owners be liable for any direct, indirect, incidental, consequential, special, or exemplary damages arising out of or in connection with your use of the website."
     ]
   },
   "cookieSettings": {
-    "title": "Cookie Settings",
-    "lastUpdated": "Last updated: March 2026",
-    "intro": "Manage your cookie preferences for this site.",
-    "necessary": {
-      "label": "Essential Cookies",
-      "description": "Required for basic site functionality (theme, language). Cannot be disabled.",
-      "alwaysOn": "Always on"
-    },
-    "analytics": {
-      "label": "Analytics Cookies",
-      "description": "Help us understand how you use the site through traffic analysis."
-    },
-    "thirdParty": {
-      "label": "Third-Party Cookies",
-      "description": "Used for embedded services (Google Maps)."
-    },
-    "save": "Save Preferences"
+    "description": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. Please choose your preferences below.",
+    "saveBtn": "Save Preferences",
+    "items": {
+      "necessary": {
+        "title": "Strictly Necessary Cookies",
+        "desc": "These cookies are essential for the website to function properly and cannot be switched off.",
+        "alwaysActive": "Always Active"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "desc": "Help us understand how visitors interact with the website by collecting and reporting information anonymously."
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "desc": "Used to track visitors across websites. The intention is to display ads that are relevant and engaging."
+      }
+    }
   },
   "explore": {
     "title": "Deep Dive",
@@ -260,6 +237,92 @@
       {
         "title": "Transport",
         "desc": "A taxi from the city center takes about 15-20 minutes and is the most convenient option. Free parking is available if you drive."
+      }
+    ]
+  },
+  "stories": {
+    "title": "Visitor Stories",
+    "subtitle": "Travel notes from four different countries",
+    "readMore": "Read Full Story",
+    "back": "Back to Home",
+    "items": {
+      "story-1": {
+        "title": "Chinese Tourist @Xiaotao | Meeting a '3D History Textbook' in the Caucasus",
+        "author": "Xiaotao",
+        "country": "China",
+        "excerpt": "As a Chinese tourist who prefers niche hidden gems and is a bit of a history buff, having traveled to so many places, Georgia still hits all the right spots for me...",
+        "content": [
+          "Before setting off for Georgia, I had already traveled to over a dozen European countries and most of Southeast Asia. I was used to the crowds at the Eiffel Tower, the weight of the Colosseum, and had been captivated by the local life in Chiang Mai and the refinement of Tokyo. I came across the Chronicle of Georgia on social media, initially thinking it was just another 'niche photo spot'. It wasn't until I actually stood beneath those 16 bronze pillars that I understood why it holds a unique place among all the historical sites I've visited.",
+          "As a Chinese tourist who prefers niche hidden gems and is a bit of a history buff, having traveled to so many places, Georgia still hits all the right spots for me: visa-free travel makes it so easy compared to the Schengen area, flights cost half of what it takes to get to France or Italy, and the prices are surprisingly low. A glass of local wine is just a couple of dollars, an authentic meal under ten. Compared to the commercialization of popular European destinations, there are no swarming tour groups here, no aggressive street vendors. You can quietly feel the blending of scenery and history. This sense of relaxation is something I never experienced in London or Paris.",
+          "The moment I reached the top of the hill and saw the monument, I was a bit dazed. The 35-meter-high bronze pillars pierced the sky, and as the sunlight fell on them, the textures of the reliefs became clear—there were legends of Noah's Ark, scenes of medieval kings' coronations, and depictions of locals making wine and celebrating festivals. It was like an open 3D history book. I've been to many historical sites; the pyramids of Egypt are profound but distant, the temples of Greece are fragmented and detached, but this monument has both historical weight and the warmth of life. I couldn't help taking photos of the reliefs, and while doing so, I looked up information and learned that Georgia is the birthplace of winemaking. The 8,000-year history of Qvevri winemaking resonates inexplicably with our Chinese agricultural civilization. Compared to the commercial wineries in Bordeaux, the wine culture here is purer. At that moment, I suddenly felt that the root of different civilizations is the love for life, regardless of region or language.",
+          "The biggest surprise is that right next to the monument is the Tbilisi Sea, and in the distance, you can see the outline of the Caucasus snow mountains. This combination of 'humanity + nature' has more historical depth than the snowy mountains and lakes I saw in Switzerland, and more vastness than the historical sites I saw in China. Any casual shot looks like a cinematic masterpiece, no editing required. I found several angles, from panoramas to close-ups of the reliefs, and even used a drone to capture the entire hilltop. When I posted it on social media, my friends bombarded me with questions, thinking I had gone to some obscure European secret spot. No one guessed that this place, combining Eastern local flavor with Western romance, was Georgia—a treasure at the crossroads of Europe and Asia ignored by too many.",
+          "After visiting the monument, I went straight to a nearby winery. Drinking the local Qvevri wine and remembering the winemaking scenes I had just seen on the reliefs, I suddenly felt like I was 'traveling through history'. I have tasted Bordeaux from France and Tuscan wines from Italy, but I was uniquely moved by Georgia's Qvevri wine. There is no complex process, just the truest aroma of grapes, much like this monument—unpretentious, unostentatious, yet sufficiently attractive. For me, this is not just a place to take photos; it's a place where I can calm down and understand the Caucasus civilization. Compared to those crowded popular attractions, a place like this—niche, culturally rich, and bringing a full sense of happiness—is the true meaning of my cross-border travels."
+        ]
+      },
+      "story-2": {
+        "title": "American Tourist @Jack | Hiking to the Top, Unlocking an 'Unfinished Epic'",
+        "author": "Jack",
+        "country": "USA",
+        "excerpt": "As an American backpacker who travels year-round, I've visited dozens of countries. The Chronicle of Georgia perfectly meets my expectations for a 'perfect destination'...",
+        "content": [
+          "As an American backpacker who travels year-round, I've visited dozens of countries across Asia, Europe, and Africa. From bustling markets in Southeast Asia to the primitive savannas of Africa, to classical monuments in Europe, I always look for places that are less commercialized and have a story. The Chronicle of Georgia perfectly meets my expectations for a 'perfect destination'—it lacks over-promotion, crowded tourist groups, and commercial souvenir shops. It only offers historical weight and natural vastness. This purity is something I've never felt in metropolises like New York or London.",
+          "I started from the Old Town of Tbilisi and hiked all the way to the top of the hill, which took about 40 minutes. The scenery became more beautiful with every step. From the red roofs of the city to the Caucasus Mountains in the distance, and the shimmering Tbilisi Sea, every step held a surprise. I've hiked in many places; routes in Nepal are steep and remote, while those in Switzerland are refined but commercialized. This route, however, has both natural wildness and the warmth of city life. Along the way, I could see locals drying grapes, hear children laughing, and smell the faint aroma of wine in the air. For me, the hiking process itself is a form of travel. I'd rather measure the land with my footsteps than take a car up the mountain.",
+          "When the monument appeared before my eyes, I was shocked by its grandeur. 16 bronze pillars stood in neat rows, densely covered with reliefs telling 3,000 years of Georgian history. From religious legends to folklore, every detail was full of power. I've seen Mount Rushmore in the US, grand but full of political atmosphere; I've seen the obelisks in Egypt, ancient but somewhat monotonous. This monument has both the grandeur of Mount Rushmore and the antiquity of the obelisks, plus a cultural heritage unique to the crossroads of Europe and Asia. I later learned that due to the collapse of the Soviet Union, funding was cut off, and it was never fully completed. This 'unfinished' state actually makes it more charming.",
+          "I sat beside the massive pillars, basking in the sun, looking at the distant scenery, and started chatting with a local elderly man. He told me that this monument is the pride of Georgians; every pillar carries their history and faith, much like what the Statue of Liberty means to Americans. Looking at the figures on the reliefs and imagining their past lives, I suddenly felt that history is never just cold text, but vivid stories. No matter which country you are in or what culture you have, people's reverence for history and love for life are interconnected. This cross-cultural resonance is the greatest reward of my years of transnational travel.",
+          "As an American, I am accustomed to mainstream Western history and culture, having grown up under the influence of the Washington Monument and the Lincoln Memorial. Georgia's 'edge civilization' at the junction of Europe and Asia is full of attraction for me. The Orthodox tradition, the unique Kartvelian language, and the traces of the Soviet era all felt fresh and magical. After visiting the monument, I went hiking along the Black Sea coast, perfectly combining history and nature. This is the kind of travel I want—free, authentic, gaining different experiences, and understanding the charm of different cultures."
+        ]
+      },
+      "story-3": {
+        "title": "European Tourist @Lina | Meeting Familiar Yet Unfamiliar Cultural Echoes in the Caucasus",
+        "author": "Lina",
+        "country": "Italy",
+        "excerpt": "I come from Italy and grew up among churches and historical monuments. I thought no monument could surprise me anymore, until I saw the Chronicle of Georgia...",
+        "content": [
+          "I come from Italy and grew up among churches and historical monuments. The Colosseum in Rome, the Florence Cathedral, and St. Mark's Basilica in Venice have long been etched into my life. I originally thought that no matter how stunning a monument was, it wouldn't surprise me much, as I have seen too many classical European treasures. That was until I came to Georgia and saw the Chronicle of Georgia. This monument, located at the foot of the Caucasus Mountains, completely broke my preconceived notions of 'historical monuments'.",
+          "At first glance, the monument felt very familiar to me. The biblical stories on the bottom reliefs—Noah's Ark, the Last Supper—are almost identical to the frescoes and sculptures in our Italian churches. That sense of homologous Orthodox culture instantly resonated with me. I've traveled to many European countries; French churches are exquisite and gorgeous, German churches are solemn, but this monument in Georgia perfectly blends religious culture with local history. It has both the shadow of European religious culture and the regional characteristics of the Caucasus. I couldn't help but stop and interpret the details on the reliefs bit by bit, as if looking at a familiar history but with a touch of unfamiliar freshness.",
+          "For me, another important reason to visit Georgia is the incredible value for money. I have traveled to many European countries, and the high prices in Western Europe are daunting. A cup of coffee in Paris costs 5 euros, and a light meal in London costs 20 euros. But here, a cup of coffee is only 3 euros, and a local specialty meal is only 10 euros. Moreover, the scenery is not inferior to the Alps. The scenery along the Black Sea coast is even more peaceful and beautiful than the Mediterranean. There are no crowded people, no commercial noise, only pure nature and beauty.",
+          "I like slow travel. Having visited many countries, I always feel that the meaning of travel is not about how many attractions you check in at, but about experiencing local life. After visiting the monument, I wasn't in a hurry to leave, but went to the Old Town of Tbilisi. Strolling through the sulfur baths, the warm spring water is very similar to our Italian hot springs, but with a unique sulfur scent. Browsing the flea market, the handicrafts inside have both European refinement and Eastern simplicity.",
+          "The sculptural style of the monument also interested me greatly. The designer, Zurab Tsereteli, perfectly blended Byzantine art, traditional Georgian reliefs, and modernism. It has both the refinement of classical European sculpture and the weight of Eastern art. I have seen sculptures in many places; Michelangelo's David in Italy is exquisitely peerless, and the Venus de Milo in France is elegantly moving. The sculpture of this monument is not that perfect, but it has enough power. It carries the history of Georgia and the integration of Eurasian cultures. This is its most unique charm."
+        ]
+      },
+      "story-4": {
+        "title": "Russian Tourist @Katya | Finding Nostalgia and Peace Beneath the Monument",
+        "author": "Katya",
+        "country": "Russia",
+        "excerpt": "Coming to Georgia is less about traveling and more about finding a sense of belonging. The Chronicle of Georgia gave me a long-lost feeling of intimacy...",
+        "content": [
+          "Coming to Georgia is less about traveling and more about finding a sense of belonging. As a Russian, I have traveled to many countries. I've been to Beijing and Shanghai in China, feeling the charm of Eastern culture; I've been to Paris and Berlin in Europe, experiencing the romance of Western culture; and I've been to Bangkok and Kuala Lumpur in Southeast Asia, feeling the liveliness of tropical customs. But Georgia has never been a strange country to me. The culture, beliefs, and even the food here have so many similarities with ours. And the Chronicle of Georgia gave me a long-lost feeling of intimacy, something I couldn't experience in any other country.",
+          "Flying from Moscow to Tbilisi takes only 2 hours, tickets are cheap, and it's visa-free. For me, it's like a short escape. I've always felt very tired and always wanted to find a quiet place to relax and stay away from the noise and disputes. I've been to many countries but never found that sense of peace until I came to Georgia. There are no shadows of conflict here, no noisy crowds, only tranquility and beauty. It's warm and healing like our Russian countryside, but with the unique flavor of the Eurasian border.",
+          "When I stood in front of the monument, looking at those familiar Orthodox icons and Soviet-era art styles, my eyes suddenly got a little wet. This monument was built during the Soviet era and is our shared historical memory. Every massive bronze pillar carries my memories of the past and the friendship between the two countries, just like Red Square and St. Basil's Cathedral in Moscow—irreplaceable cultural symbols in our hearts. Touching the textures of the reliefs, I could almost feel the intentions of the builders back then. That cultural closeness is irreplaceable anywhere. I've visited historical sites in many countries—the majestic Great Wall of China, the romantic Eiffel Tower in France—but none gave me such a strong sense of belonging as this monument.",
+          "I didn't rush to take photos like other tourists. Instead, I found a quiet corner, sat on the grass, looked at the Tbilisi Sea in the distance, felt the wind, and thought about nothing. There is no noise here, no disputes, only peace and beauty, making me temporarily forget all my troubles. Sometimes, I chat with Russian immigrants here, listening to them talk about their lives. That resonance of being foreigners together makes me feel warm. I also communicate with locals; they are passionate and kind. Just like us Russians, they have a love for life and a reverence for history. This transnational friendship touches me deeply.",
+          "For me, this monument is not just a historical site, but a spiritual sustenance. It witnessed the history of Georgia and the past of our two countries. Here, I can find my cultural roots and inner peace. Every time I come here, I feel very grounded, as if all my nostalgia can be settled here. I have traveled to many places and seen many landscapes, but I uniquely prefer this place, preferring this cross-regional intimacy, this peace and beauty. If you come to Georgia, you must come and see this monument. It will help you understand what cultural resonance is, what inner peace is, and it will make you realize that no matter where you are, the power of culture can always cross regional boundaries and warm people's hearts."
+        ]
+      }
+    }
+  },
+  "faq": {
+    "title": "Deep Dive Guides",
+    "subtitle": "Everything you need to know before visiting",
+    "items": [
+      {
+        "title": "Visual & Aesthetics: The 'Stonehenge' of Tbilisi",
+        "desc": "Is it an epic relic or a modern unfinished project? Standing under the Chronicles of Georgia, you will feel a visual impact of 'oppressive aesthetics'. The huge black metal texture and the unfinished top state make it the most 'fierce' monument in Tbilisi."
+      },
+      {
+        "title": "Architecture & History: Is it a Modern Building?",
+        "desc": "Started in 1985, this is a masterpiece by sculptor Zurab Tsereteli. The 16 massive pillars represent different meanings: the upper part carves the kings and heroes of Georgian history, while the lower part depicts the life of Jesus. It's like the Georgian version of the Sagrada Familia, still partially unfinished after nearly 40 years."
+      },
+      {
+        "title": "Photography Guide: Avoid Pitfalls",
+        "desc": "To capture cinematic shots, arrive an hour before sunset for the best light and shadows. Pitfalls to avoid: the hilltop is very windy (bring a jacket), there is no shade (very sunny in summer), and no supply points nearby (bring water). A wide-angle lens is highly recommended to capture its grandeur."
+      },
+      {
+        "title": "Transport & Surroundings: How to get there?",
+        "desc": "The monument is located on the northern outskirts of the city. The most cost-effective way is taking a Bolt taxi (about 10-15 GEL from the center). After your visit, it's highly recommended to take a walk to the adjacent Tbilisi Sea to enjoy the breeze and the vast artificial lake views."
+      },
+      {
+        "title": "Mystery & Culture: Game of Thrones Vibes",
+        "desc": "Did you accidentally wander into a Game of Thrones set? The massive scale and medieval fantasy aesthetics of the monument often make visitors feel they've entered a movie. It's not just a sculpture, but a 3,000-year civilization carved in bronze, blending Eastern mystery with Western epic tales."
       }
     ]
   }

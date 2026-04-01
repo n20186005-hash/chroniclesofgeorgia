@@ -22,6 +22,8 @@ function HomeContent({locale}: {locale: string}) {
   const tGallery = useTranslations('gallery');
   const tTips = useTranslations('tips');
   const tReviews = useTranslations('reviews');
+  const tStories = useTranslations('stories');
+  const tFaq = useTranslations('faq');
   const tInfo = useTranslations('info');
   const tMap = useTranslations('map');
   const tFooter = useTranslations('footer');
@@ -30,6 +32,11 @@ function HomeContent({locale}: {locale: string}) {
   const reviews = tReviews.raw('items') as {name: string, date: string, text: string}[];
   const exploreItems = tExplore.raw('items') as {title: string, desc: string}[];
   const tipsItems = tTips.raw('items') as {title: string, desc: string}[];
+  const storyItems = [1, 2, 3, 4].map(id => ({
+    id: `story-${id}`,
+    ...tStories.raw(`items.story-${id}`) as {title: string, author: string, country: string, excerpt: string}
+  }));
+  const faqItems = tFaq.raw('items') as {title: string, desc: string}[];
   
   const galleryImages = [
     '/gallery/images (1).jpg',
@@ -37,7 +44,9 @@ function HomeContent({locale}: {locale: string}) {
     '/gallery/images (3).jpg',
     '/gallery/images (4).jpg',
     '/gallery/images (5).jpg',
-    '/gallery/images (6).jpg'
+    '/gallery/images (6).jpg',
+    '/gallery/images (7).jpg',
+    '/gallery/images (8).jpg'
   ];
 
   return (
@@ -53,9 +62,10 @@ function HomeContent({locale}: {locale: string}) {
               <a href="#about" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('about')}</a>
               <a href="#explore" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('explore')}</a>
               <a href="#gallery" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('gallery')}</a>
+              <a href="#stories" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('stories')}</a>
+              <a href="#faq" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('faq')}</a>
               <a href="#tips" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('tips')}</a>
               <a href="#reviews" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('reviews')}</a>
-              <a href="#info" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm font-medium tracking-wider uppercase transition-colors">{tNav('info')}</a>
             </nav>
             <div className="flex items-center space-x-6">
               <ThemeToggle />
@@ -70,7 +80,7 @@ function HomeContent({locale}: {locale: string}) {
                         : 'text-gray-400 dark:text-gray-600 hover:text-gray-900 dark:hover:text-gray-300'
                     }`}
                   >
-                    {lang === 'ka' ? 'KA' : lang === 'zh-Hans' ? 'ZH' : lang === 'zh-Hant' ? 'TW' : lang.toUpperCase()}
+                    {lang === 'ka' ? 'KA' : lang === 'zh-Hans' ? 'CN' : lang === 'zh-Hant' ? 'TW' : lang.toUpperCase()}
                   </a>
                 ))}
               </div>
@@ -80,10 +90,10 @@ function HomeContent({locale}: {locale: string}) {
       </header>
 
       {/* 2. Hero */}
-      <section className="relative pt-8 pb-16 md:pt-12 md:pb-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative h-[60vh] min-h-[500px] md:h-[70vh] md:min-h-[600px] rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
-            <div className="absolute inset-0">
+      <section className="relative pt-8 pb-16 md:pt-12 md:pb-24 w-full overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="relative h-[60vh] min-h-[500px] md:h-[65vh] md:min-h-[550px] md:max-h-[700px] rounded-3xl overflow-hidden shadow-xl flex items-center justify-center w-full">
+            <div className="absolute inset-0 w-full h-full">
               <img 
                 src="/gallery/images (1).jpg" 
                 alt="The Chronicles of Georgia" 
@@ -184,7 +194,45 @@ function HomeContent({locale}: {locale: string}) {
         </div>
       </section>
 
-      {/* 6. Tips & Info */}
+      {/* 6. Visitor Stories */}
+      <section id="stories" className="py-16 md:py-24 bg-[#fafafa] dark:bg-[#0a0a0a] border-t border-gray-100 dark:border-gray-900 transition-colors duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+            <h3 className="text-3xl font-serif text-gray-900 dark:text-white mb-4">{tStories('title')}</h3>
+            <p className="text-gray-500 dark:text-gray-400 font-light">{tStories('subtitle')}</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            {storyItems.map((story) => (
+              <a 
+                key={story.id} 
+                href={`/${locale}/stories/${story.id}`}
+                className="group bg-white dark:bg-[#151515] rounded-2xl p-6 md:p-8 border border-gray-100 dark:border-gray-800 hover:border-gray-200 dark:hover:border-gray-700 hover:shadow-md transition-all duration-300 flex flex-col h-full"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs font-medium px-3 py-1 rounded-full">
+                    {story.country}
+                  </span>
+                  <span className="text-sm text-gray-400 dark:text-gray-500">
+                    @{story.author}
+                  </span>
+                </div>
+                <h4 className="text-xl md:text-2xl font-serif text-gray-900 dark:text-white mb-4 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors leading-snug">
+                  {story.title}
+                </h4>
+                <p className="text-gray-500 dark:text-gray-400 font-light leading-relaxed text-sm md:text-base mb-6 flex-grow line-clamp-3">
+                  {story.excerpt}
+                </p>
+                <div className="flex items-center text-sm font-medium text-gray-900 dark:text-white mt-auto pt-4 border-t border-gray-50 dark:border-gray-800/50 group-hover:gap-2 transition-all">
+                  {tStories('readMore')} <span className="ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">→</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Tips & Info */}
       <section id="tips" className="py-16 md:py-24 bg-[#fafafa] dark:bg-[#0a0a0a] border-y border-gray-100 dark:border-gray-900 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
@@ -229,12 +277,23 @@ function HomeContent({locale}: {locale: string}) {
         </div>
       </section>
 
-      {/* 7. Reviews */}
+      {/* 8. Reviews */}
       <section id="reviews" className="py-16 md:py-24 bg-white dark:bg-[#0f0f0f] transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
             <h3 className="text-3xl font-serif text-gray-900 dark:text-white mb-4">{tReviews('title')}</h3>
-            <p className="text-gray-500 dark:text-gray-400 font-light text-sm md:text-base">{tReviews('declaration')}</p>
+            <p className="text-gray-500 dark:text-gray-400 font-light text-sm md:text-base leading-relaxed">
+              {tReviews('declaration')}
+              <a 
+                href="https://maps.app.goo.gl/Q8VeC3SXTQesCfe48" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center mt-2 md:mt-0 md:ml-2 text-gray-900 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 font-medium transition-colors border-b border-gray-900 dark:border-gray-200 hover:border-gray-600 dark:hover:border-gray-400 pb-0.5 group"
+              >
+                {tReviews('viewAll')}
+                <span className="ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">→</span>
+              </a>
+            </p>
           </div>
           {/* Expanded to 8 reviews with a clean grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
@@ -252,8 +311,38 @@ function HomeContent({locale}: {locale: string}) {
         </div>
       </section>
 
-      {/* 8. Map Section */}
-      <section id="map" className="py-16 md:py-24 bg-[#fafafa] dark:bg-[#0a0a0a] border-t border-gray-100 dark:border-gray-900 transition-colors duration-300">
+      {/* 9. FAQ / Deep Dive Guides */}
+      <section id="faq" className="py-16 md:py-24 bg-[#fafafa] dark:bg-[#0a0a0a] border-y border-gray-100 dark:border-gray-900 transition-colors duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+            <h3 className="text-3xl font-serif text-gray-900 dark:text-white mb-4">{tFaq('title')}</h3>
+            <p className="text-gray-500 dark:text-gray-400 font-light">{tFaq('subtitle')}</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+            {faqItems.map((item, index) => (
+              <div key={index} className="bg-white dark:bg-[#151515] p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm">
+                <div className="flex items-start gap-4">
+                  <span className="text-3xl opacity-20 dark:opacity-40 font-serif leading-none mt-1">
+                    0{index + 1}
+                  </span>
+                  <div>
+                    <h4 className="text-lg md:text-xl font-medium text-gray-900 dark:text-white mb-3">
+                      {item.title}
+                    </h4>
+                    <p className="text-gray-600 dark:text-gray-400 font-light leading-relaxed text-sm md:text-base">
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 10. Map Section */}
+      <section id="map" className="py-16 md:py-24 bg-white dark:bg-[#0f0f0f] transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-10 md:mb-16">
             <h3 className="text-3xl font-serif text-gray-900 dark:text-white mb-4">{tMap('title')}</h3>
@@ -274,7 +363,7 @@ function HomeContent({locale}: {locale: string}) {
         </div>
       </section>
 
-      {/* 9. Footer */}
+      {/* 11. Footer */}
       <footer className="bg-gray-900 dark:bg-black text-white py-16 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 border-b border-gray-800 pb-12 mb-8">
@@ -292,9 +381,10 @@ function HomeContent({locale}: {locale: string}) {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-light">
             <p>{tFooter('rights')}</p>
-            <div className="space-x-6 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white transition-colors">{tLegal('privacy')}</a>
-              <a href="#" className="hover:text-white transition-colors">{tLegal('terms')}</a>
+            <div className="space-x-6 mt-4 md:mt-0 flex flex-wrap justify-center gap-y-2">
+              <a href={`/${locale}/privacy-policy`} className="hover:text-white transition-colors">{tLegal('privacy')}</a>
+              <a href={`/${locale}/terms-of-service`} className="hover:text-white transition-colors">{tLegal('terms')}</a>
+              <a href={`/${locale}/cookie-settings`} className="hover:text-white transition-colors">{tLegal('cookies')}</a>
             </div>
           </div>
         </div>
