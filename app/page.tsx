@@ -1,8 +1,7 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>欢迎来到格鲁吉亚编年史</h1>
-      <p>这是一个Next.js应用</p>
-    </main>
-  )
+import {redirect} from 'next/navigation';
+import {routing} from '@/src/i18n/routing';
+
+export default function RootPage() {
+  // 重定向到默认语言版本
+  redirect(`/${routing.defaultLocale}`);
 }
