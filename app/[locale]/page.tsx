@@ -249,13 +249,14 @@ function HomeContent({locale}: {locale: string}) {
           <div className="relative max-w-4xl mx-auto mb-8">
             <div className="bg-white rounded-xl shadow-2xl overflow-hidden">
               <div className="relative h-96">
-                <img 
-                  src="/gallery/images (1).jpg" 
-                  alt="格鲁吉亚编年史纪念碑全景" 
-                  className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
-                  onClick={() => window.open('/gallery/images (1).jpg', '_blank')}
-                />
-                <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded-lg">
+                <a href="/gallery/images (1).jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img 
+                    src="/gallery/images (1).jpg" 
+                    alt="格鲁吉亚编年史纪念碑全景" 
+                    className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
+                <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded-lg pointer-events-none">
                   <p className="text-sm">纪念碑全景 - 展现宏伟规模</p>
                 </div>
               </div>
@@ -273,15 +274,14 @@ function HomeContent({locale}: {locale: string}) {
           {/* 缩略图网格 */}
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 mb-8">
             {Array.from({length: 14}, (_, i) => i + 1).map((num) => (
-              <div key={num} className="relative group cursor-pointer">
+              <a key={num} href={`/gallery/images (${num}).jpg`} target="_blank" rel="noopener noreferrer" className="relative group cursor-pointer block">
                 <img 
                   src={`/gallery/images (${num}).jpg`} 
                   alt={`格鲁吉亚编年史照片 ${num}`}
                   className="w-full h-24 object-cover rounded-lg hover:scale-110 transition-transform duration-200"
-                  onClick={() => window.open(`/gallery/images (${num}).jpg`, '_blank')}
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors rounded-lg"></div>
-              </div>
+              </a>
             ))}
           </div>
           
