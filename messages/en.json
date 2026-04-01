@@ -242,12 +242,12 @@
   },
   "stories": {
     "title": "Visitor Stories",
-    "subtitle": "Travel notes from four different countries",
+    "subtitle": "Chronicle of Georgia: Visitor Travel Notes",
     "readMore": "Read Full Story",
     "back": "Back to Home",
     "items": {
       "story-1": {
-        "title": "Chinese Tourist @Xiaotao | Meeting a '3D History Textbook' in the Caucasus",
+        "title": "Meeting a '3D History Textbook' in the Caucasus",
         "author": "Xiaotao",
         "country": "China",
         "excerpt": "As a Chinese tourist who prefers niche hidden gems and is a bit of a history buff, having traveled to so many places, Georgia still hits all the right spots for me...",
@@ -260,7 +260,7 @@
         ]
       },
       "story-2": {
-        "title": "American Tourist @Jack | Hiking to the Top, Unlocking an 'Unfinished Epic'",
+        "title": "Hiking to the Top, Unlocking an 'Unfinished Epic'",
         "author": "Jack",
         "country": "USA",
         "excerpt": "As an American backpacker who travels year-round, I've visited dozens of countries. The Chronicle of Georgia perfectly meets my expectations for a 'perfect destination'...",
@@ -273,7 +273,7 @@
         ]
       },
       "story-3": {
-        "title": "European Tourist @Lina | Meeting Familiar Yet Unfamiliar Cultural Echoes in the Caucasus",
+        "title": "Meeting Familiar Yet Unfamiliar Cultural Echoes in the Caucasus",
         "author": "Lina",
         "country": "Italy",
         "excerpt": "I come from Italy and grew up among churches and historical monuments. I thought no monument could surprise me anymore, until I saw the Chronicle of Georgia...",
@@ -286,7 +286,7 @@
         ]
       },
       "story-4": {
-        "title": "Russian Tourist @Katya | Finding Nostalgia and Peace Beneath the Monument",
+        "title": "Finding Nostalgia and Peace Beneath the Monument",
         "author": "Katya",
         "country": "Russia",
         "excerpt": "Coming to Georgia is less about traveling and more about finding a sense of belonging. The Chronicle of Georgia gave me a long-lost feeling of intimacy...",

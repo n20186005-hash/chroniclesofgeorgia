@@ -22,11 +22,11 @@ const newKeys = {
       "zh-Hant": "遊客心聲"
     },
     subtitle: {
-      en: "Travel notes from four different countries",
-      ka: "მოგზაურობის ჩანაწერები ოთხი სხვადასხვა ქვეყნიდან",
-      ru: "Путевые заметки из четырех разных стран",
-      "zh-Hans": "格鲁吉亚编年史纪念碑：四个不同国家游客的打卡手记",
-      "zh-Hant": "喬治亞編年史紀念碑：四個不同國家遊客的打卡手記"
+      en: "Chronicle of Georgia: Visitor Travel Notes",
+      ka: "საქართველოს მატიანე: ვიზიტორთა მოგზაურობის ჩანაწერები",
+      ru: "Летопись Грузии: Путевые заметки посетителей",
+      "zh-Hans": "格鲁吉亚编年史纪念碑：游客的打卡手记",
+      "zh-Hant": "喬治亞編年史紀念碑：遊客的打卡手記"
     },
     readMore: {
       en: "Read Full Story",
@@ -45,11 +45,11 @@ const newKeys = {
     items: {
       "story-1": {
         title: {
-          "zh-Hans": "中国游客@小桃｜在高加索，遇见一座“立体的历史课本”",
-          "zh-Hant": "中國遊客@小桃｜在高加索，遇見一座“立體的歷史課本”",
-          "en": "Chinese Tourist @Xiaotao | Meeting a '3D History Textbook' in the Caucasus",
-          "ka": "ჩინელი ტურისტი @Xiaotao | კავკასიაში '3D ისტორიის სახელმძღვანელოსთან' შეხვედრა",
-          "ru": "Китайский турист @Сяотао | Встреча с '3D учебником истории' на Кавказе"
+          "zh-Hans": "在高加索，遇见一座“立体的历史课本”",
+          "zh-Hant": "在高加索，遇見一座“立體的歷史課本”",
+          "en": "Meeting a '3D History Textbook' in the Caucasus",
+          "ka": "კავკასიაში '3D ისტორიის სახელმძღვანელოსთან' შეხვედრა",
+          "ru": "Встреча с '3D учебником истории' на Кавказе"
         },
         author: { "zh-Hans": "小桃", "zh-Hant": "小桃", "en": "Xiaotao", "ka": "ქსიაოტაო", "ru": "Сяотао" },
         country: { "zh-Hans": "中国", "zh-Hant": "中國", "en": "China", "ka": "ჩინეთი", "ru": "Китай" },
@@ -100,11 +100,11 @@ const newKeys = {
       },
       "story-2": {
         title: {
-          "zh-Hans": "美国游客@杰克｜徒步登顶，解锁一座“未完成的史诗”",
-          "zh-Hant": "美國遊客@傑克｜徒步登頂，解鎖一座“未完成的史詩”",
-          "en": "American Tourist @Jack | Hiking to the Top, Unlocking an 'Unfinished Epic'",
-          "ka": "ამერიკელი ტურისტი @Jack | ლაშქრობა მწვერვალზე, 'დაუსრულებელი ეპოსის' აღმოჩენა",
-          "ru": "Американский турист @Джек | Поход на вершину, открытие 'Незавершенной эпопеи'"
+          "zh-Hans": "徒步登顶，解锁一座“未完成的史诗”",
+          "zh-Hant": "徒步登頂，解鎖一座“未完成的史詩”",
+          "en": "Hiking to the Top, Unlocking an 'Unfinished Epic'",
+          "ka": "ლაშქრობა მწვერვალზე, 'დაუსრულებელი ეპოსის' აღმოჩენა",
+          "ru": "Поход на вершину, открытие 'Незавершенной эпопеи'"
         },
         author: { "zh-Hans": "杰克", "zh-Hant": "傑克", "en": "Jack", "ka": "ჯეკი", "ru": "Джек" },
         country: { "zh-Hans": "美国", "zh-Hant": "美國", "en": "USA", "ka": "აშშ", "ru": "США" },
@@ -155,11 +155,11 @@ const newKeys = {
       },
       "story-3": {
         title: {
-          "zh-Hans": "欧洲游客@莉娜｜在高加索，遇见熟悉又陌生的文化回响",
-          "zh-Hant": "歐洲遊客@莉娜｜在高加索，遇見熟悉又陌生的文化迴響",
-          "en": "European Tourist @Lina | Meeting Familiar Yet Unfamiliar Cultural Echoes in the Caucasus",
-          "ka": "ევროპელი ტურისტი @Lina | ნაცნობი, მაგრამ უცხო კულტურული გამოძახილის შეხვედრა კავკასიაში",
-          "ru": "Европейский турист @Лина | Встреча со знакомыми, но незнакомыми культурными отголосками на Кавказе"
+          "zh-Hans": "在高加索，遇见熟悉又陌生的文化回响",
+          "zh-Hant": "在高加索，遇見熟悉又陌生的文化迴響",
+          "en": "Meeting Familiar Yet Unfamiliar Cultural Echoes in the Caucasus",
+          "ka": "ნაცნობი, მაგრამ უცხო კულტურული გამოძახილის შეხვედრა კავკასიაში",
+          "ru": "Встреча со знакомыми, но незнакомыми культурными отголосками на Кавказе"
         },
         author: { "zh-Hans": "莉娜", "zh-Hant": "莉娜", "en": "Lina", "ka": "ლინა", "ru": "Лина" },
         country: { "zh-Hans": "意大利", "zh-Hant": "義大利", "en": "Italy", "ka": "იტალია", "ru": "Италия" },
@@ -210,11 +210,11 @@ const newKeys = {
       },
       "story-4": {
         title: {
-          "zh-Hans": "俄罗斯游客@卡佳｜在纪念碑下，安放一份乡愁与安宁",
-          "zh-Hant": "俄羅斯遊客@卡佳｜在紀念碑下，安放一份鄉愁與安寧",
-          "en": "Russian Tourist @Katya | Finding Nostalgia and Peace Beneath the Monument",
-          "ka": "რუსი ტურისტი @Katya | ნოსტალგიისა და სიმშვიდის პოვნა მონუმენტის ქვეშ",
-          "ru": "Российский турист @Катя | Обретение ностальгии и покоя у памятника"
+          "zh-Hans": "在纪念碑下，安放一份乡愁与安宁",
+          "zh-Hant": "在紀念碑下，安放一份鄉愁與安寧",
+          "en": "Finding Nostalgia and Peace Beneath the Monument",
+          "ka": "ნოსტალგიისა და სიმშვიდის პოვნა მონუმენტის ქვეშ",
+          "ru": "Обретение ностальгии и покоя у памятника"
         },
         author: { "zh-Hans": "卡佳", "zh-Hant": "卡佳", "en": "Katya", "ka": "კატია", "ru": "Катя" },
         country: { "zh-Hans": "俄罗斯", "zh-Hant": "俄羅斯", "en": "Russia", "ka": "რუსეთი", "ru": "Россия" },
