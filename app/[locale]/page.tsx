@@ -260,7 +260,7 @@ function HomeContent({locale}: {locale: string}) {
             <p className="text-gray-600 mb-6">{tReviews('declaration')}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            {reviews.map((review, index) => (
+            {tReviews('items').map((review: any, index: number) => (
               <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
