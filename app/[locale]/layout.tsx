@@ -1,9 +1,11 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import '../globals.css';
-import { Inter } from 'next/font/google';
+import { Inter, Playfair_Display } from 'next/font/google';
+import { ThemeProvider } from '../../components/ThemeProvider';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
 export const metadata = {
   title: '乔治亚编年史 - Chronicles of Georgia',
@@ -22,15 +24,17 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   
   return (
-    <html lang={locale} className={inter.className}>
+    <html lang={locale} className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased bg-[#fafafa] dark:bg-[#0a0a0a] text-gray-900 dark:text-gray-100 transition-colors duration-300">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

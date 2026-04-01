@@ -8,7 +8,9 @@
     "gallery": "Gallery",
     "reviews": "Reviews",
     "info": "Info",
-    "map": "Map"
+    "map": "Map",
+    "explore": "Explore",
+    "tips": "Tips"
   },
   "hero": {
     "title": "საქართველოს მატიანე",
@@ -17,7 +19,8 @@
     "reviewCount": "12,626 reviews",
     "openHours": "Open 24 hours",
     "mapLink": "Open in Google Maps",
-    "tags": "Monument,Sculpture,History,Tbilisi,Zurab Tsereteli,Soviet Modernism,Photography,Panorama"
+    "tags": "Monument,Sculpture,History,Tbilisi,Zurab Tsereteli,Soviet Modernism,Photography,Panorama",
+    "galleryLink": "View Gallery"
   },
   "about": {
     "title": "Discover the Chronicle",
@@ -46,21 +49,54 @@
       "c6": "Pillar silhouettes",
       "c7": "Historical reliefs",
       "c8": "Monument in winter"
-    }
+    },
+    "viewMaps": "View all on Maps"
   },
   "reviews": {
     "title": "Real Visitor Reviews",
     "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only show a selection of verified high-rated reviews. To see all complete and latest reviews, please click the link below.",
     "moreReviews": "See all reviews on Google Maps",
     "items": [
-      {"name": "George M.", "date": "March 2026", "text": "Absolutely stunning place! The reliefs on the pillars tell Georgia's entire history. Especially magical at sunset."},
-      {"name": "Sarah K.", "date": "February 2026", "text": "A must-see in Tbilisi! The panoramic views are beautiful and the historical pillars are truly impressive."},
-      {"name": "David B.", "date": "January 2026", "text": "Tsereteli's masterpiece. A bit far from the center but absolutely worth it. 15 minutes by taxi."},
-      {"name": "Maria T.", "date": "December 2025", "text": "Amazing monument! Biblical scenes and Georgian history on the pillars. Perfect for photography."},
-      {"name": "Luke J.", "date": "November 2025", "text": "A hidden treasure. Not many tourists, peaceful atmosphere. I recommend visiting in the morning or evening."},
-      {"name": "Anna S.", "date": "October 2025", "text": "One of the most impressive monuments I've ever seen. The scale of the pillars is breathtaking."},
-      {"name": "Tom W.", "date": "September 2025", "text": "Tbilisi's hidden gem. The view of the Tbilisi Sea from the monument is fantastic."},
-      {"name": "Nick P.", "date": "August 2025", "text": "Wonderful spot for photography. Soviet-era monumental art at its finest."}
+      {
+        "name": "George M.",
+        "date": "March 2026",
+        "text": "Absolutely stunning place! The reliefs on the pillars tell Georgia's entire history. Especially magical at sunset."
+      },
+      {
+        "name": "Sarah K.",
+        "date": "February 2026",
+        "text": "A must-see in Tbilisi! The panoramic views are beautiful and the historical pillars are truly impressive."
+      },
+      {
+        "name": "David B.",
+        "date": "January 2026",
+        "text": "Tsereteli's masterpiece. A bit far from the center but absolutely worth it. 15 minutes by taxi."
+      },
+      {
+        "name": "Maria T.",
+        "date": "December 2025",
+        "text": "Amazing monument! Biblical scenes and Georgian history on the pillars. Perfect for photography."
+      },
+      {
+        "name": "Luke J.",
+        "date": "November 2025",
+        "text": "A hidden treasure. Not many tourists, peaceful atmosphere. I recommend visiting in the morning or evening."
+      },
+      {
+        "name": "Anna S.",
+        "date": "October 2025",
+        "text": "One of the most impressive monuments I've ever seen. The scale of the pillars is breathtaking."
+      },
+      {
+        "name": "Tom W.",
+        "date": "September 2025",
+        "text": "Tbilisi's hidden gem. The view of the Tbilisi Sea from the monument is fantastic."
+      },
+      {
+        "name": "Nick P.",
+        "date": "August 2025",
+        "text": "Wonderful spot for photography. Soviet-era monumental art at its finest."
+      }
     ]
   },
   "info": {
@@ -102,7 +138,8 @@
   },
   "footer": {
     "support": "For technical support of this website, please contact:",
-    "rights": "© 2026 Chronicles of Georgia · All rights reserved."
+    "rights": "© 2026 Chronicles of Georgia. All rights reserved.",
+    "desc": "An independent guide to The Chronicles of Georgia monument in Tbilisi."
   },
   "theme": {
     "light": "Light",
@@ -119,10 +156,22 @@
     "lastUpdated": "Last updated: March 2026",
     "intro": "This privacy policy describes how we collect, use and protect your information when visiting chroniclesofgeorgia.com.",
     "sections": [
-      {"title": "Information Collection", "content": "We collect anonymous usage data through analytics. We do not collect personal information unless you provide it directly (e.g., via email contact)."},
-      {"title": "Use of Cookies", "content": "Our site uses cookies to improve experience, store theme preferences and language selection."},
-      {"title": "Third-Party Services", "content": "We use Google Maps for map embedding and Google Analytics for traffic analysis. These services may collect data according to their own policies."},
-      {"title": "Contact", "content": "For privacy-related questions, please write to: N20186005@gmail.com"}
+      {
+        "title": "Information Collection",
+        "content": "We collect anonymous usage data through analytics. We do not collect personal information unless you provide it directly (e.g., via email contact)."
+      },
+      {
+        "title": "Use of Cookies",
+        "content": "Our site uses cookies to improve experience, store theme preferences and language selection."
+      },
+      {
+        "title": "Third-Party Services",
+        "content": "We use Google Maps for map embedding and Google Analytics for traffic analysis. These services may collect data according to their own policies."
+      },
+      {
+        "title": "Contact",
+        "content": "For privacy-related questions, please write to: N20186005@gmail.com"
+      }
     ]
   },
   "termsOfService": {
@@ -130,19 +179,88 @@
     "lastUpdated": "Last updated: March 2026",
     "intro": "By accessing chroniclesofgeorgia.com, you agree to the following terms.",
     "sections": [
-      {"title": "Use of Site", "content": "This site provides informational content about the Chronicles of Georgia. Information is provided 'as is' and may contain inaccuracies."},
-      {"title": "Intellectual Property", "content": "Site content, text and design are our property. Photos are under Unsplash license. Google Maps data belongs to Google."},
-      {"title": "Limitation of Liability", "content": "We assume no responsibility for reliance on information provided on this site. Please always verify tourist information with official sources."},
-      {"title": "Contact", "content": "For questions related to these terms, please write to: N20186005@gmail.com"}
+      {
+        "title": "Use of Site",
+        "content": "This site provides informational content about the Chronicles of Georgia. Information is provided 'as is' and may contain inaccuracies."
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "Site content, text and design are our property. Photos are under Unsplash license. Google Maps data belongs to Google."
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": "We assume no responsibility for reliance on information provided on this site. Please always verify tourist information with official sources."
+      },
+      {
+        "title": "Contact",
+        "content": "For questions related to these terms, please write to: N20186005@gmail.com"
+      }
     ]
   },
   "cookieSettings": {
     "title": "Cookie Settings",
     "lastUpdated": "Last updated: March 2026",
     "intro": "Manage your cookie preferences for this site.",
-    "necessary": {"label": "Essential Cookies", "description": "Required for basic site functionality (theme, language). Cannot be disabled.", "alwaysOn": "Always on"},
-    "analytics": {"label": "Analytics Cookies", "description": "Help us understand how you use the site through traffic analysis."},
-    "thirdParty": {"label": "Third-Party Cookies", "description": "Used for embedded services (Google Maps)."},
+    "necessary": {
+      "label": "Essential Cookies",
+      "description": "Required for basic site functionality (theme, language). Cannot be disabled.",
+      "alwaysOn": "Always on"
+    },
+    "analytics": {
+      "label": "Analytics Cookies",
+      "description": "Help us understand how you use the site through traffic analysis."
+    },
+    "thirdParty": {
+      "label": "Third-Party Cookies",
+      "description": "Used for embedded services (Google Maps)."
+    },
     "save": "Save Preferences"
+  },
+  "explore": {
+    "title": "Deep Dive",
+    "subtitle": "Explore the different facets that make this monument a unique destination.",
+    "items": [
+      {
+        "title": "Architectural Scale",
+        "desc": "Experience the sheer magnitude of the 35-meter tall pillars and the imposing brutalist structure."
+      },
+      {
+        "title": "Biblical Reliefs",
+        "desc": "The bottom sections of the pillars feature detailed scenes from the life of Christ."
+      },
+      {
+        "title": "Georgian Royalty",
+        "desc": "The upper sections depict kings, queens, and heroes who shaped the nation's history."
+      },
+      {
+        "title": "Tbilisi Sea Views",
+        "desc": "Overlook the vast artificial lake that provides a serene backdrop to the concrete giant."
+      },
+      {
+        "title": "Unfinished Legacy",
+        "desc": "Learn why the monument remains partially incomplete since the fall of the Soviet Union."
+      },
+      {
+        "title": "Photography",
+        "desc": "A heaven for photographers, offering dramatic shadows, leading lines, and epic scale."
+      }
+    ]
+  },
+  "tips": {
+    "title": "Visitor Tips",
+    "items": [
+      {
+        "title": "Photography",
+        "desc": "Arrive 30 minutes before sunset for the golden hour. Use a wide-angle lens to capture the full scale. The shadows play beautifully on the reliefs."
+      },
+      {
+        "title": "Preparation",
+        "desc": "Wear comfortable shoes as the terrain can be uneven. Bring water and sun protection in summer, as there is little shade and few shops nearby."
+      },
+      {
+        "title": "Transport",
+        "desc": "A taxi from the city center takes about 15-20 minutes and is the most convenient option. Free parking is available if you drive."
+      }
+    ]
   }
 }
