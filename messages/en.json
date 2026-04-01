@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Chronicles of Georgia — Tbilisi, Georgia",
+    "description": "Complete guide to the Chronicles of Georgia: monumental pillars overlooking the Tbilisi Sea, telling 3,000 years of Georgian history."
+  },
+  "nav": {
+    "about": "About",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "info": "Info",
+    "map": "Map"
+  },
+  "hero": {
+    "title": "საქართველოს მატიანე",
+    "subtitle": "Monumental pillars narrating 3,000 years of Georgian history",
+    "rating": "4.8/5",
+    "reviewCount": "12,626 reviews",
+    "openHours": "Open 24 hours",
+    "mapLink": "Open in Google Maps",
+    "tags": "Monument,Sculpture,History,Tbilisi,Zurab Tsereteli,Soviet Modernism,Photography,Panorama"
+  },
+  "about": {
+    "title": "Discover the Chronicle",
+    "description": "The Chronicles of Georgia is a monumental work by sculptor Zurab Tsereteli — 16 massive pillars standing 35 meters tall on the shores of the Tbilisi Sea. Construction began in 1985 and remains officially unfinished. The pillars depict biblical and historical scenes from Georgian history.",
+    "highlights": {
+      "h1": "16 monumental pillars, 35 meters tall",
+      "h2": "Biblical and historical reliefs on each pillar",
+      "h3": "Panoramic views of the Tbilisi Sea",
+      "h4": "Free access 24 hours a day",
+      "h5": "Ideal spot for photography",
+      "h6": "Soviet modernist architecture specimen"
+    },
+    "keywords": "Chronicles of Georgia,Tsereteli Monument,Tbilisi Sea,Soviet Modernism,Historical Monument"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "The monument and its surroundings",
+    "credit": "Photo: Unsplash (last updated: 2026)",
+    "moreLink": "See all photos on Google Maps",
+    "captions": {
+      "c1": "Pillars at sunset",
+      "c2": "Relief details",
+      "c3": "Panoramic view",
+      "c4": "Tbilisi Sea from the monument",
+      "c5": "Night illumination",
+      "c6": "Pillar silhouettes",
+      "c7": "Historical reliefs",
+      "c8": "Monument in winter"
+    }
+  },
+  "reviews": {
+    "title": "Real Visitor Reviews",
+    "declaration": "Ratings and reviews from Google Maps (last updated: 2026). We only show a selection of verified high-rated reviews. To see all complete and latest reviews, please click the link below.",
+    "moreReviews": "See all reviews on Google Maps",
+    "items": [
+      {"name": "George M.", "date": "March 2026", "text": "Absolutely stunning place! The reliefs on the pillars tell Georgia's entire history. Especially magical at sunset."},
+      {"name": "Sarah K.", "date": "February 2026", "text": "A must-see in Tbilisi! The panoramic views are beautiful and the historical pillars are truly impressive."},
+      {"name": "David B.", "date": "January 2026", "text": "Tsereteli's masterpiece. A bit far from the center but absolutely worth it. 15 minutes by taxi."},
+      {"name": "Maria T.", "date": "December 2025", "text": "Amazing monument! Biblical scenes and Georgian history on the pillars. Perfect for photography."},
+      {"name": "Luke J.", "date": "November 2025", "text": "A hidden treasure. Not many tourists, peaceful atmosphere. I recommend visiting in the morning or evening."},
+      {"name": "Anna S.", "date": "October 2025", "text": "One of the most impressive monuments I've ever seen. The scale of the pillars is breathtaking."},
+      {"name": "Tom W.", "date": "September 2025", "text": "Tbilisi's hidden gem. The view of the Tbilisi Sea from the monument is fantastic."},
+      {"name": "Nick P.", "date": "August 2025", "text": "Wonderful spot for photography. Soviet-era monumental art at its finest."}
+    ]
+  },
+  "info": {
+    "title": "Practical Information",
+    "address": {
+      "label": "Address",
+      "value": "QRC6+65V, Chronicles of Georgia Temqa, Tbilisi, Georgia"
+    },
+    "hours": {
+      "label": "Opening Hours",
+      "value": "Open 24 hours — Free entry. Best time to visit is sunrise or sunset for photography."
+    },
+    "howToGet": {
+      "label": "How to Get There",
+      "value": "From Tbilisi center: 15-20 minutes by taxi. By bus: #60 or #1 towards Tbilisi Sea."
+    },
+    "parking": {
+      "label": "Parking",
+      "value": "Free parking available on site."
+    },
+    "accessibility": {
+      "label": "Accessibility",
+      "value": "Open-air site. Path is partially unpaved — comfortable footwear recommended."
+    }
+  },
+  "map": {
+    "title": "How to Get There",
+    "address": "QRC6+65V, Chronicles of Georgia Temqa, Tbilisi, Georgia",
+    "openMap": "Open in Google Maps"
+  },
+  "references": {
+    "title": "Data & References",
+    "disclaimer": "This site is an independent third-party tourism information portal. Information is sourced from public resources (tourism agencies and Wikipedia) and Google Maps data.",
+    "sources": {
+      "google": "Google Maps — Ratings, reviews and geographic data",
+      "unsplash": "Unsplash — Photos used in the gallery",
+      "wiki": "Wikipedia — Historical and cultural information"
+    }
+  },
+  "footer": {
+    "support": "For technical support of this website, please contact:",
+    "rights": "© 2026 Chronicles of Georgia · All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "backHome": "Back to Home"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "This privacy policy describes how we collect, use and protect your information when visiting chroniclesofgeorgia.com.",
+    "sections": [
+      {"title": "Information Collection", "content": "We collect anonymous usage data through analytics. We do not collect personal information unless you provide it directly (e.g., via email contact)."},
+      {"title": "Use of Cookies", "content": "Our site uses cookies to improve experience, store theme preferences and language selection."},
+      {"title": "Third-Party Services", "content": "We use Google Maps for map embedding and Google Analytics for traffic analysis. These services may collect data according to their own policies."},
+      {"title": "Contact", "content": "For privacy-related questions, please write to: N20186005@gmail.com"}
+    ]
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "By accessing chroniclesofgeorgia.com, you agree to the following terms.",
+    "sections": [
+      {"title": "Use of Site", "content": "This site provides informational content about the Chronicles of Georgia. Information is provided 'as is' and may contain inaccuracies."},
+      {"title": "Intellectual Property", "content": "Site content, text and design are our property. Photos are under Unsplash license. Google Maps data belongs to Google."},
+      {"title": "Limitation of Liability", "content": "We assume no responsibility for reliance on information provided on this site. Please always verify tourist information with official sources."},
+      {"title": "Contact", "content": "For questions related to these terms, please write to: N20186005@gmail.com"}
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "Manage your cookie preferences for this site.",
+    "necessary": {"label": "Essential Cookies", "description": "Required for basic site functionality (theme, language). Cannot be disabled.", "alwaysOn": "Always on"},
+    "analytics": {"label": "Analytics Cookies", "description": "Help us understand how you use the site through traffic analysis."},
+    "thirdParty": {"label": "Third-Party Cookies", "description": "Used for embedded services (Google Maps)."},
+    "save": "Save Preferences"
+  }
+}

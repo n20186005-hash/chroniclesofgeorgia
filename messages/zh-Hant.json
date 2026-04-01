@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "喬治亞編年史 — 第比利斯，喬治亞",
+    "description": "喬治亞編年史完整指南：聳立於第比利斯海畔的紀念碑柱群，講述3000年喬治亞歷史。"
+  },
+  "nav": {
+    "about": "簡介",
+    "gallery": "相冊",
+    "reviews": "評價",
+    "info": "資訊",
+    "map": "地圖"
+  },
+  "hero": {
+    "title": "საქართველოს მატიანე",
+    "subtitle": "講述喬治亞3000年歷史的紀念碑柱群",
+    "rating": "4.8/5",
+    "reviewCount": "12,626 則評價",
+    "openHours": "24小時開放",
+    "mapLink": "在Google Maps中開啟",
+    "tags": "紀念碑,雕塑,歷史,第比利斯,祖拉布·策列特利,蘇聯現代主義,攝影,全景"
+  },
+  "about": {
+    "title": "探索編年史",
+    "description": "喬治亞編年史是雕塑家祖拉布·策列特利的紀念碑作品——16根高達35米的巨大石柱矗立在第比利斯海畔。1985年開始建造，至今仍未正式完工。柱身雕刻著聖經故事和喬治亞歷史場景。",
+    "highlights": {
+      "h1": "16根紀念碑柱，高35米",
+      "h2": "每根柱上的聖經和歷史浮雕",
+      "h3": "第比利斯海全景視野",
+      "h4": "全天24小時免費開放",
+      "h5": "攝影愛好者的理想去處",
+      "h6": "蘇聯現代主義建築典範"
+    },
+    "keywords": "喬治亞編年史,策列特利紀念碑,第比利斯海,蘇聯現代主義,歷史古蹟"
+  },
+  "gallery": {
+    "title": "照片集",
+    "subtitle": "紀念碑及其周邊環境",
+    "credit": "照片：Unsplash（最後更新：2026年）",
+    "moreLink": "在Google Maps查看所有照片",
+    "captions": {
+      "c1": "日落時的石柱",
+      "c2": "浮雕細節",
+      "c3": "全景視野",
+      "c4": "從紀念碑望向第比利斯海",
+      "c5": "夜間燈光",
+      "c6": "石柱剪影",
+      "c7": "歷史浮雕",
+      "c8": "冬季的紀念碑"
+    }
+  },
+  "reviews": {
+    "title": "真實遊客評價",
+    "declaration": "評分和評價來自Google地圖（最後更新：2026年）。我們僅展示經過驗證的精選高分評價。如需查看所有完整和最新評價，請點擊下方連結。",
+    "moreReviews": "在Google Maps查看所有評價",
+    "items": [
+      {"name": "George M.", "date": "2026年3月", "text": "令人歎為觀止的地方！柱上的浮雕講述了喬治亞的整部歷史。日落時分格外神奇。"},
+      {"name": "Sarah K.", "date": "2026年2月", "text": "第比利斯必去景點！全景視野美不勝收，歷史石柱令人印象深刻。"},
+      {"name": "David B.", "date": "2026年1月", "text": "策列特利的傑作。離市中心稍遠，但絕對值得。搭計程車15分鐘即達。"},
+      {"name": "Maria T.", "date": "2025年12月", "text": "令人驚嘆的紀念碑！聖經場景和喬治亞歷史盡在柱上。非常適合攝影。"},
+      {"name": "Luke J.", "date": "2025年11月", "text": "隱藏的寶藏。遊客不多，氛圍寧靜。推薦清晨或傍晚前往。"},
+      {"name": "Anna S.", "date": "2025年10月", "text": "我見過最令人震撼的紀念碑之一。石柱的規模令人嘆為觀止。"},
+      {"name": "Tom W.", "date": "2025年9月", "text": "第比利斯的隱藏瑰寶。從紀念碑眺望第比利斯海的景色太棒了。"},
+      {"name": "Nick P.", "date": "2025年8月", "text": "攝影的絕佳場所。蘇聯時代紀念碑藝術的巔峰之作。"}
+    ]
+  },
+  "info": {
+    "title": "實用資訊",
+    "address": {
+      "label": "地址",
+      "value": "QRC6+65V, Chronicles of Georgia Temqa, 第比利斯, 喬治亞"
+    },
+    "hours": {
+      "label": "開放時間",
+      "value": "24小時開放 — 免費入場。最佳拍攝時間為日出或日落。"
+    },
+    "howToGet": {
+      "label": "如何前往",
+      "value": "從第比利斯市中心：搭計程車15-20分鐘。搭公車：#60或#1路往第比利斯海方向。"
+    },
+    "parking": {
+      "label": "停車場",
+      "value": "現場提供免費停車。"
+    },
+    "accessibility": {
+      "label": "無障礙設施",
+      "value": "露天場地。部分道路未鋪設——建議穿著舒適鞋履。"
+    }
+  },
+  "map": {
+    "title": "如何前往",
+    "address": "QRC6+65V, Chronicles of Georgia Temqa, 第比利斯, 喬治亞",
+    "openMap": "在Google Maps中開啟"
+  },
+  "references": {
+    "title": "資料與參考來源",
+    "disclaimer": "本站為獨立的第三方旅遊資訊平台。資訊來源於公共資源（旅遊局和維基百科）及Google Maps數據。",
+    "sources": {
+      "google": "Google Maps — 評分、評價和地理數據",
+      "unsplash": "Unsplash — 相冊中使用的照片",
+      "wiki": "維基百科 — 歷史和文化資訊"
+    }
+  },
+  "footer": {
+    "support": "如需本網站的技術支援，請聯繫：",
+    "rights": "© 2026 喬治亞編年史 · 保留所有權利。"
+  },
+  "theme": {
+    "light": "日間",
+    "dark": "夜間"
+  },
+  "legal": {
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "cookies": "Cookie 設定",
+    "backHome": "返回首頁"
+  },
+  "privacyPolicy": {
+    "title": "隱私政策",
+    "lastUpdated": "最後更新：2026年3月",
+    "intro": "本隱私政策說明我們在您訪問 chroniclesofgeorgia.com 時如何收集、使用和保護您的資訊。",
+    "sections": [
+      {"title": "資訊收集", "content": "我們通過分析工具收集匿名使用數據。除非您主動提供（如通過電子郵件聯繫），否則我們不收集個人資訊。"},
+      {"title": "Cookie 使用", "content": "本站使用 Cookie 以改善體驗，儲存主題偏好和語言選擇。"},
+      {"title": "第三方服務", "content": "我們使用 Google Maps 嵌入地圖，使用 Google Analytics 分析流量。這些服務可能根據其自身政策收集數據。"},
+      {"title": "聯繫方式", "content": "如有隱私相關問題，請發送郵件至：N20186005@gmail.com"}
+    ]
+  },
+  "termsOfService": {
+    "title": "服務條款",
+    "lastUpdated": "最後更新：2026年3月",
+    "intro": "訪問 chroniclesofgeorgia.com 即表示您同意以下條款。",
+    "sections": [
+      {"title": "網站使用", "content": "本站提供有關喬治亞編年史的資訊內容。資訊按「原樣」提供，可能包含不準確之處。"},
+      {"title": "智慧財產權", "content": "網站內容、文字和設計為我們所有。照片依 Unsplash 授權使用。Google Maps 數據歸 Google 所有。"},
+      {"title": "責任限制", "content": "我們不對依賴本站資訊所造成的後果承擔責任。請務必向官方來源核實旅遊資訊。"},
+      {"title": "聯繫方式", "content": "如有條款相關問題，請發送郵件至：N20186005@gmail.com"}
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 設定",
+    "lastUpdated": "最後更新：2026年3月",
+    "intro": "管理您在本站的 Cookie 偏好設定。",
+    "necessary": {"label": "必要 Cookie", "description": "網站基本功能所需（主題、語言）。無法停用。", "alwaysOn": "始終開啟"},
+    "analytics": {"label": "分析 Cookie", "description": "幫助我們通過流量分析了解您如何使用本站。"},
+    "thirdParty": {"label": "第三方 Cookie", "description": "用於嵌入式服務（Google Maps）。"},
+    "save": "儲存設定"
+  }
+}
