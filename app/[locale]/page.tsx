@@ -110,11 +110,11 @@ function HomeContent({locale}: {locale: string}) {
             </span>
           </div>
           <div className="flex justify-center space-x-4 mb-8">
-            <a href="#map" className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
-              {t('mapLink')}
+            <a href="#map" className="bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-lg hover:from-red-700 hover:to-red-800 transition-all font-semibold shadow-lg">
+              📍 {t('mapLink')}
             </a>
-            <a href="#gallery" className="bg-gray-200 text-gray-800 px-8 py-4 rounded-lg hover:bg-gray-300 transition-colors font-semibold">
-              {t('gallery')}
+            <a href="#gallery" className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-600 transition-all font-semibold shadow-lg">
+              📸 查看相册
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
